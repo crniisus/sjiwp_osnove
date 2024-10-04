@@ -1,0 +1,66 @@
+.boja {
+    color:azure;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.vrsta1 {
+    background-color: crimson;
+    padding: 5px;
+    border: 1px solid gray;
+    color:beige;
+    text-decoration: none;
+}
+
+.vrsta1:hover{
+    background-color: blueviolet;
+}
+
+.vrsta2 {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:indigo;
+    font-weight: bold;
+}
+
+.vrsta2.hover{
+    background-color: aqua;
+}
+
+a {
+    line-height: 200%;
+}
+
+.uzrecica {
+    font-family: cursive;
+    font-size: xx-large;
+    margin-left: 50px;
+    padding: 10px;
+    border-left: 2px solid burlywood;
+}
+
+.uzrecica:hover {
+    background-color: burlywood;
+    color: azure;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color:indigo;
+    color:white;
+    padding: 3px;
+}
+
+td{
+    padding:3px;
+}
+
+table,th,td{
+    border-radius: 4px;
+}
